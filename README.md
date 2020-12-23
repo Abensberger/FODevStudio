@@ -1,4 +1,4 @@
-# FODevStudio
+# FODevStudio 0.1
 IDE zur Erstellung von XSL-FO-Dateien
 
 ![Screenshot](https://github.com/Abensberger/FODevStudio/blob/main/ScreenShot.png?raw=true)
