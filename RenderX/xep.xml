@@ -265,6 +265,13 @@
         <font weight="bold"><font-data ttf="palab.ttf"/></font>
         <font weight="bold" style="italic"><font-data ttf="palabi.ttf"/></font>
       </font-family>
+	  
+      <font-family name="PalatinoNichtEingebettet" embed="false" ligatures="&#xFB00; &#xFB01; &#xFB02; &#xFB03; &#xFB04;">
+        <font><font-data ttf="pala.ttf"/></font>
+        <font style="italic"><font-data ttf="palai.ttf"/></font>
+        <font weight="bold"><font-data ttf="palab.ttf"/></font>
+        <font weight="bold" style="italic"><font-data ttf="palabi.ttf"/></font>
+      </font-family>	  
     </font-group>
 	
 	
