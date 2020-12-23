@@ -1,0 +1,21 @@
+Product release info
+
+Product name: XEP
+Release name: Regular
+Product version: 4.30.915
+Build date:   2019-12-11 15:59:04
+Build server: RenderX-1
+Build type:   (Not specified)
+Build reason: (undefined) ((Not specified))
+
+current.time.year = 2019
+SETUP_JAR_NAME = setup-4.30.915.jar
+
+Compiler:
+Java Runtime version: 1.8.0_144
+JDK version: 1.8
+JDK version for AFP backend: 1.8
+Java runtime version for tests: 1.8
+Java Target version for core and backends: 1.8
+Java Target version for AFP backend: 1.8
+Java Target version for TXT backend: 1.8
