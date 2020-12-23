@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ======================================================  -->
+<!--                                                         -->
+<!-- ======================================================  -->
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:rx="http://www.renderx.com/XSL/Extensions" font-family="Tahoma">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="SinglePage" page-width="90mm" page-height="55mm">
+      <fo:region-body region-name="xsl-region-body" margin-left="5mm" margin-top="0mm" margin-bottom="1mm" padding="0pt"/>
+      <fo:region-before region-name="xsl-region-before" extent="17mm" display-align="after" padding="6pt 17mm"/>
+      <fo:region-after region-name="xsl-region-after" extent="17mm" display-align="before" padding="6pt 17mm"/>
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+  <fo:page-sequence master-reference="SinglePage">
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block-container absolute-position="fixed" width="20mm" height="20mm" left="65mm" top="5mm" background-color="teal" display-align="center">
+        <fo:block font-size="40pt" text-align="center" color="gold" font-family="ElegantIcons">&#xE0ED;</fo:block>
+      </fo:block-container>
+      <fo:block-container absolute-position="fixed" width="50mm" height="22mm"
+                          left="5mm" top="5mm" display-align="after">
+        <fo:block font-weight="bold" font-size="13pt" linefeed-treatment="preserve">Martina Mustermann</fo:block>
+        <fo:block text-align="left" font-size="9pt">Verkaufsleiterin</fo:block>
+        <fo:block text-align="left" font-size="9pt">SAMPLE International GmbH</fo:block>
+      </fo:block-container>
+      <fo:block margin-top="30mm" text-align="left" font-size="9pt">
+        <fo:list-block text-align="left" provisional-distance-between-starts="5mm" start-indent="0mm" end-indent="5mm">
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block color="teal" font-family="ElegantIcons">&#xE081;</fo:block>  <!-- E081 -->
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>Musterplatz 1, 12345 Irgendwo </fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block color="teal" font-family="ElegantIcons">&#xE090;</fo:block>    <!-- E090 -->
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>+99 123 45 67 89-013</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block color="teal" font-family="ElegantIcons">&#xE00B;</fo:block>   <!-- E00B -->
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>+99 77 345 67 89</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block color="teal" font-family="ElegantIcons">&#xE0FA;</fo:block>  <!-- E0FA -->
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>+99 12 345 67 89-002</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block color="teal" font-family="ElegantIcons">&#xE076;</fo:block>      <!-- E076 -->
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>m.muster@sample-corporation.com</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block color="teal" font-family="ElegantIcons">&#xE074;</fo:block>     <!-- E074 -->
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block>www.sample-corporation.com</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+        </fo:list-block>
+        <fo:block/>
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>

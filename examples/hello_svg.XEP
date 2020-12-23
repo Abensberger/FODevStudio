@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xep:document xmlns:xep="http://www.renderx.com/XEP/xep" producer="XEP 4.30.915" creator="Unknown" author="Unknown" title="Untitled">
+<xep:page width="595276" height="841890" page-number="1" page-id="1">
+<xep:gray-color gray="0.5019608"/>
+<xep:polygon x-from="48439" y-from="793451">
+<xep:point x-till="546837" y-till="793451"/>
+<xep:point x-till="547087" y-till="793701"/>
+<xep:point x-till="48189" y-till="793701"/>
+</xep:polygon>
+<xep:polygon x-from="48189" y-from="48189">
+<xep:point x-till="547087" y-till="48189"/>
+<xep:point x-till="546837" y-till="48439"/>
+<xep:point x-till="48439" y-till="48439"/>
+</xep:polygon>
+<xep:polygon x-from="48439" y-from="48439">
+<xep:point x-till="48439" y-till="793451"/>
+<xep:point x-till="48189" y-till="793701"/>
+<xep:point x-till="48189" y-till="48189"/>
+</xep:polygon>
+<xep:polygon x-from="547087" y-from="48189">
+<xep:point x-till="547087" y-till="793701"/>
+<xep:point x-till="546837" y-till="793451"/>
+<xep:point x-till="546837" y-till="48439"/>
+</xep:polygon>
+<xep:word-spacing value="0"/>
+<xep:letter-spacing value="0"/>
+<xep:font-stretch value="1.0"/>
+<xep:font family="Helvetica" weight="400" style="normal" variant="normal" size="12000"/>
+<xep:gray-color gray="0.0"/>
+<xep:text value="Hello World! " x="264968" y="777185" width="65340" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:rgb-color red="1.0" green="1.0" blue="0.0"/>
+<xep:rectangle x-from="54439" y-from="744705" x-till="82455" y-till="773051"/>
+<xep:gray-color gray="0.0"/>
+<xep:image src="file:/C:/Users/kirchfr/Downloads/line-awesome-1.3.0/1.3.0/svg/biking-solid.svg" type="image/svg+xml" x-from="54439" y-from="744705" scale-x="1.4763541666666666" scale-y="1.4763541666666666" width="28346" height="28346" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[1][name()=&apos;list-block&apos;]/*[1][name()=&apos;list-item&apos;]/*[1][name()=&apos;list-item-label&apos;]/*[1][name()=&apos;block&apos;]/*[1][name()=&apos;external-graphic&apos;]" role="none"/>
+<xep:rgb-color red="0.6784314" green="0.84705883" blue="0.9019608"/>
+<xep:rectangle x-from="88455" y-from="758651" x-till="512491" y-till="773051"/>
+<xep:gray-color gray="0.0"/>
+<xep:text value="Motorradfahrer " x="88455" y="762785" width="79356" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[1][name()=&apos;list-block&apos;]/*[1][name()=&apos;list-item&apos;]/*[2][name()=&apos;list-item-body&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:rgb-color red="1.0" green="1.0" blue="0.0"/>
+<xep:rectangle x-from="54439" y-from="716359" x-till="82455" y-till="744705"/>
+<xep:gray-color gray="0.0"/>
+<xep:image src="file:/C:/Users/kirchfr/Downloads/line-awesome-1.3.0/1.3.0/svg/clock.svg" type="image/svg+xml" x-from="54439" y-from="716359" scale-x="1.4763541666666666" scale-y="1.4763541666666666" width="28346" height="28346" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[1][name()=&apos;list-block&apos;]/*[2][name()=&apos;list-item&apos;]/*[1][name()=&apos;list-item-label&apos;]/*[1][name()=&apos;block&apos;]/*[1][name()=&apos;external-graphic&apos;]" role="none"/>
+<xep:rgb-color red="0.6784314" green="0.84705883" blue="0.9019608"/>
+<xep:rectangle x-from="88455" y-from="701505" x-till="512491" y-till="744705"/>
+<xep:gray-color gray="0.0"/>
+<xep:text value="Mo-Fr 8:00 - 18:00 Uhr " x="88455" y="734439" width="122040" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[1][name()=&apos;list-block&apos;]/*[2][name()=&apos;list-item&apos;]/*[2][name()=&apos;list-item-body&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:text value="Samstag nur nach Vereinbarung " x="88455" y="720039" width="172752" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[1][name()=&apos;list-block&apos;]/*[2][name()=&apos;list-item&apos;]/*[2][name()=&apos;list-item-body&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:text value="Sonntags nur Fliesenausstellung " x="88455" y="705639" width="174084" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[1][name()=&apos;list-block&apos;]/*[2][name()=&apos;list-item&apos;]/*[2][name()=&apos;list-item-body&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:rgb-color red="1.0" green="0.0" blue="0.0"/>
+<xep:polygon x-from="88455" y-from="442105">
+<xep:point x-till="88555" y-till="442205"/>
+<xep:point x-till="540737" y-till="442205"/>
+<xep:point x-till="540837" y-till="442105"/>
+<xep:point x-till="540937" y-till="442005"/>
+<xep:point x-till="88355" y-till="442005"/>
+</xep:polygon>
+<xep:polygon x-from="88455" y-from="701505">
+<xep:point x-till="88355" y-till="701605"/>
+<xep:point x-till="540937" y-till="701605"/>
+<xep:point x-till="540837" y-till="701505"/>
+<xep:point x-till="540737" y-till="701405"/>
+<xep:point x-till="88555" y-till="701405"/>
+</xep:polygon>
+<xep:polygon x-from="88455" y-from="442105">
+<xep:point x-till="88555" y-till="442205"/>
+<xep:point x-till="88555" y-till="701405"/>
+<xep:point x-till="88455" y-till="701505"/>
+<xep:point x-till="88355" y-till="701605"/>
+<xep:point x-till="88355" y-till="442005"/>
+</xep:polygon>
+<xep:polygon x-from="540837" y-from="442105">
+<xep:point x-till="540937" y-till="442005"/>
+<xep:point x-till="540937" y-till="701605"/>
+<xep:point x-till="540837" y-till="701505"/>
+<xep:point x-till="540737" y-till="701405"/>
+<xep:point x-till="540737" y-till="442205"/>
+</xep:polygon>
+<xep:gray-color gray="0.0"/>
+<xep:text value="Lorem ipsum " x="88555" y="691139" width="69348" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:text value="dolor sit amet Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean " x="88555" y="676739" width="418836" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:text value="commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis " x="88555" y="662339" width="450204" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:image src="file:/C:/Users/kirchfr/Downloads/line-awesome-1.3.0/1.3.0/svg/bicycle-solid.svg" type="image/svg+xml" x-from="54439" y-from="558874" scale-x="1.4763541666666666" scale-y="1.4763541666666666" width="28346" height="28346" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[1][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]/*[1][name()=&apos;external-graphic&apos;]" role="none"/>
+<xep:text value="dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, " x="88555" y="647939" width="410808" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:text value="pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede " x="88555" y="633539" width="443532" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:word-spacing value="-515"/>
+<xep:text value="justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet " x="88555" y="619139" width="452185" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:word-spacing value="0"/>
+<xep:text value="a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. " x="88555" y="604739" width="452184" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:text value="Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. " x="88555" y="590339" width="430848" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:word-spacing value="-448"/>
+<xep:text value="Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, " x="88555" y="575939" width="452184" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:word-spacing value="-614"/>
+<xep:letter-spacing value="-51"/>
+<xep:text value="dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. " x="88555" y="561539" width="452131" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:word-spacing value="-657"/>
+<xep:letter-spacing value="-55"/>
+<xep:text value="Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper " x="88555" y="547139" width="452133" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:word-spacing value="-672"/>
+<xep:letter-spacing value="-62"/>
+<xep:text value="ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum " x="88555" y="532739" width="452182" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:word-spacing value="0"/>
+<xep:letter-spacing value="0"/>
+<xep:text value="rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam " x="88555" y="518339" width="439488" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:word-spacing value="-412"/>
+<xep:text value="quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante " x="88555" y="503939" width="452192" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:word-spacing value="0"/>
+<xep:text value="tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. " x="88555" y="489539" width="444204" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:text value="Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet " x="88555" y="475139" width="452160" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:word-spacing value="-689"/>
+<xep:letter-spacing value="-79"/>
+<xep:text value="nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue " x="88555" y="460739" width="452124" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:word-spacing value="0"/>
+<xep:letter-spacing value="0"/>
+<xep:text value="velit cursus nunc, " x="88555" y="446339" width="92700" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[1][name()=&apos;block&apos;]/*[2][name()=&apos;table&apos;]/*[3][name()=&apos;table-body&apos;]/*[1][name()=&apos;table-row&apos;]/*[2][name()=&apos;table-cell&apos;]/*[1][name()=&apos;block&apos;]"/>
+<xep:image src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KCiAgICAgICAg
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9
+IjAgMCAzMiAzMiIgd2lkdGg9IjEzMiIgaGVpZ2h0PSIxMzIiIHhtbG5zOnJ4PSJo
+dHRwOi8vd3d3LnJlbmRlcnguY29tL1hTTC9FeHRlbnNpb25zIiByeDp4cGF0aD0i
+LypbMV1bbmFtZSgpPSZhcG9zO3Jvb3QmYXBvcztdLypbMl1bbmFtZSgpPSZhcG9z
+O3BhZ2Utc2VxdWVuY2UmYXBvcztdLypbMV1bbmFtZSgpPSZhcG9zO2Zsb3cmYXBv
+cztdLypbMl1bbmFtZSgpPSZhcG9zO2Jsb2NrJmFwb3M7XS8qWzFdW25hbWUoKT0m
+YXBvcztpbnN0cmVhbS1mb3JlaWduLW9iamVjdCZhcG9zO10vKlsxXVtuYW1lKCk9
+JmFwb3M7c3ZnJmFwb3M7XSI+CgkgICAgICAgIDxwYXRoIHN0cm9rZT0iYmx1ZSIg
+ZmlsbD0iYmx1ZSIgZD0iTSA2IDYgQyA0LjM1NTQ2OSA2IDMgNy4zNTU0NjkgMyA5
+IEwgMyAxNS43ODEyNSBDIDIuMzkwNjI1IDE2LjMzMjAzMSAyIDE3LjEyMTA5NCAy
+IDE4IEwgMiAyNyBMIDcgMjcgTCA3IDI1IEwgMjUgMjUgTCAyNSAyNyBMIDMwIDI3
+IEwgMzAgMTggQyAzMCAxNy4xMjEwOTQgMjkuNjA5Mzc1IDE2LjMzMjAzMSAyOSAx
+NS43ODEyNSBMIDI5IDkgQyAyOSA3LjM1NTQ2OSAyNy42NDQ1MzEgNiAyNiA2IFog
+TSA2IDggTCAyNiA4IEMgMjYuNTU0Njg4IDggMjcgOC40NDUzMTMgMjcgOSBMIDI3
+IDE1IEwgMjUgMTUgTCAyNSAxNCBDIDI1IDEyLjM1NTQ2OSAyMy42NDQ1MzEgMTEg
+MjIgMTEgTCAxOCAxMSBDIDE3LjIzNDM3NSAxMSAxNi41MzEyNSAxMS4zMDA3ODEg
+MTYgMTEuNzgxMjUgQyAxNS40Njg3NSAxMS4zMDA3ODEgMTQuNzY1NjI1IDExIDE0
+IDExIEwgMTAgMTEgQyA4LjM1NTQ2OSAxMSA3IDEyLjM1NTQ2OSA3IDE0IEwgNyAx
+NSBMIDUgMTUgTCA1IDkgQyA1IDguNDQ1MzEzIDUuNDQ1MzEzIDggNiA4IFogTSAx
+MCAxMyBMIDE0IDEzIEMgMTQuNTU0Njg4IDEzIDE1IDEzLjQ0NTMxMyAxNSAxNCBM
+IDE1IDE1IEwgOSAxNSBMIDkgMTQgQyA5IDEzLjQ0NTMxMyA5LjQ0NTMxMyAxMyAx
+MCAxMyBaIE0gMTggMTMgTCAyMiAxMyBDIDIyLjU1NDY4OCAxMyAyMyAxMy40NDUz
+MTMgMjMgMTQgTCAyMyAxNSBMIDE3IDE1IEwgMTcgMTQgQyAxNyAxMy40NDUzMTMg
+MTcuNDQ1MzEzIDEzIDE4IDEzIFogTSA1IDE3IEwgMjcgMTcgQyAyNy41NTQ2ODgg
+MTcgMjggMTcuNDQ1MzEzIDI4IDE4IEwgMjggMjUgTCAyNyAyNSBMIDI3IDIzIEwg
+NSAyMyBMIDUgMjUgTCA0IDI1IEwgNCAxOCBDIDQgMTcuNDQ1MzEzIDQuNDQ1MzEz
+IDE3IDUgMTcgWiIgeG1sbnM6cng9Imh0dHA6Ly93d3cucmVuZGVyeC5jb20vWFNM
+L0V4dGVuc2lvbnMiIHJ4OnhwYXRoPSIvKlsxXVtuYW1lKCk9JmFwb3M7cm9vdCZh
+cG9zO10vKlsyXVtuYW1lKCk9JmFwb3M7cGFnZS1zZXF1ZW5jZSZhcG9zO10vKlsx
+XVtuYW1lKCk9JmFwb3M7ZmxvdyZhcG9zO10vKlsyXVtuYW1lKCk9JmFwb3M7Ymxv
+Y2smYXBvcztdLypbMV1bbmFtZSgpPSZhcG9zO2luc3RyZWFtLWZvcmVpZ24tb2Jq
+ZWN0JmFwb3M7XS8qWzFdW25hbWUoKT0mYXBvcztzdmcmYXBvcztdLypbMV1bbmFt
+ZSgpPSZhcG9zO3BhdGgmYXBvcztdIi8+CiAgICAgICAgPC9zdmc+CiAgICAgICA=" base="file:/C:/Lazarusprojekte/trunk/FODevStudio/" type="image/svg+xml" x-from="54439" y-from="361255" scale-x="1.0" scale-y="1.0" width="79200" height="79200" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[2][name()=&apos;block&apos;]/*[1][name()=&apos;instream-foreign-object&apos;]" role="none"/>
+<xep:text value=" " x="133639" y="361255" width="3336" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[2][name()=&apos;block&apos;]"/>
+<xep:image src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KCiAgICAgICAg
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9
+IjAgMCAzMiAzMiIgd2lkdGg9IjEzMiIgaGVpZ2h0PSIxMzIiIHhtbG5zOnJ4PSJo
+dHRwOi8vd3d3LnJlbmRlcnguY29tL1hTTC9FeHRlbnNpb25zIiByeDp4cGF0aD0i
+LypbMV1bbmFtZSgpPSZhcG9zO3Jvb3QmYXBvcztdLypbMl1bbmFtZSgpPSZhcG9z
+O3BhZ2Utc2VxdWVuY2UmYXBvcztdLypbMV1bbmFtZSgpPSZhcG9zO2Zsb3cmYXBv
+cztdLypbMl1bbmFtZSgpPSZhcG9zO2Jsb2NrJmFwb3M7XS8qWzJdW25hbWUoKT0m
+YXBvcztpbnN0cmVhbS1mb3JlaWduLW9iamVjdCZhcG9zO10vKlsxXVtuYW1lKCk9
+JmFwb3M7c3ZnJmFwb3M7XSI+CgkgICAgICAgIDxwYXRoIHN0cm9rZT0iYmx1ZSIg
+ZmlsbD0ieWVsbG93IiBkPSJNIDYgNiBDIDQuMzU1NDY5IDYgMyA3LjM1NTQ2OSAz
+IDkgTCAzIDE1Ljc4MTI1IEMgMi4zOTA2MjUgMTYuMzMyMDMxIDIgMTcuMTIxMDk0
+IDIgMTggTCAyIDI3IEwgNyAyNyBMIDcgMjUgTCAyNSAyNSBMIDI1IDI3IEwgMzAg
+MjcgTCAzMCAxOCBDIDMwIDE3LjEyMTA5NCAyOS42MDkzNzUgMTYuMzMyMDMxIDI5
+IDE1Ljc4MTI1IEwgMjkgOSBDIDI5IDcuMzU1NDY5IDI3LjY0NDUzMSA2IDI2IDYg
+WiBNIDYgOCBMIDI2IDggQyAyNi41NTQ2ODggOCAyNyA4LjQ0NTMxMyAyNyA5IEwg
+MjcgMTUgTCAyNSAxNSBMIDI1IDE0IEMgMjUgMTIuMzU1NDY5IDIzLjY0NDUzMSAx
+MSAyMiAxMSBMIDE4IDExIEMgMTcuMjM0Mzc1IDExIDE2LjUzMTI1IDExLjMwMDc4
+MSAxNiAxMS43ODEyNSBDIDE1LjQ2ODc1IDExLjMwMDc4MSAxNC43NjU2MjUgMTEg
+MTQgMTEgTCAxMCAxMSBDIDguMzU1NDY5IDExIDcgMTIuMzU1NDY5IDcgMTQgTCA3
+IDE1IEwgNSAxNSBMIDUgOSBDIDUgOC40NDUzMTMgNS40NDUzMTMgOCA2IDggWiBN
+IDEwIDEzIEwgMTQgMTMgQyAxNC41NTQ2ODggMTMgMTUgMTMuNDQ1MzEzIDE1IDE0
+IEwgMTUgMTUgTCA5IDE1IEwgOSAxNCBDIDkgMTMuNDQ1MzEzIDkuNDQ1MzEzIDEz
+IDEwIDEzIFogTSAxOCAxMyBMIDIyIDEzIEMgMjIuNTU0Njg4IDEzIDIzIDEzLjQ0
+NTMxMyAyMyAxNCBMIDIzIDE1IEwgMTcgMTUgTCAxNyAxNCBDIDE3IDEzLjQ0NTMx
+MyAxNy40NDUzMTMgMTMgMTggMTMgWiBNIDUgMTcgTCAyNyAxNyBDIDI3LjU1NDY4
+OCAxNyAyOCAxNy40NDUzMTMgMjggMTggTCAyOCAyNSBMIDI3IDI1IEwgMjcgMjMg
+TCA1IDIzIEwgNSAyNSBMIDQgMjUgTCA0IDE4IEMgNCAxNy40NDUzMTMgNC40NDUz
+MTMgMTcgNSAxNyBaIiB4bWxuczpyeD0iaHR0cDovL3d3dy5yZW5kZXJ4LmNvbS9Y
+U0wvRXh0ZW5zaW9ucyIgcng6eHBhdGg9Ii8qWzFdW25hbWUoKT0mYXBvcztyb290
+JmFwb3M7XS8qWzJdW25hbWUoKT0mYXBvcztwYWdlLXNlcXVlbmNlJmFwb3M7XS8q
+WzFdW25hbWUoKT0mYXBvcztmbG93JmFwb3M7XS8qWzJdW25hbWUoKT0mYXBvczti
+bG9jayZhcG9zO10vKlsyXVtuYW1lKCk9JmFwb3M7aW5zdHJlYW0tZm9yZWlnbi1v
+YmplY3QmYXBvcztdLypbMV1bbmFtZSgpPSZhcG9zO3N2ZyZhcG9zO10vKlsxXVtu
+YW1lKCk9JmFwb3M7cGF0aCZhcG9zO10iLz4KICAgICAgICA8L3N2Zz4KICAgICAg
+IA==" base="file:/C:/Lazarusprojekte/trunk/FODevStudio/" type="image/svg+xml" x-from="136975" y-from="361255" scale-x="1.0" scale-y="1.0" width="79200" height="79200" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[2][name()=&apos;block&apos;]/*[2][name()=&apos;instream-foreign-object&apos;]" role="none"/>
+<xep:text value=" " x="216175" y="361255" width="3336" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[2][name()=&apos;block&apos;]"/>
+<xep:image src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KCiAgICAgICAg
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9
+IjAgMCAzMiAzMiIgd2lkdGg9IjEzMiIgaGVpZ2h0PSIxMzIiIHhtbG5zOnJ4PSJo
+dHRwOi8vd3d3LnJlbmRlcnguY29tL1hTTC9FeHRlbnNpb25zIiByeDp4cGF0aD0i
+LypbMV1bbmFtZSgpPSZhcG9zO3Jvb3QmYXBvcztdLypbMl1bbmFtZSgpPSZhcG9z
+O3BhZ2Utc2VxdWVuY2UmYXBvcztdLypbMV1bbmFtZSgpPSZhcG9zO2Zsb3cmYXBv
+cztdLypbMl1bbmFtZSgpPSZhcG9zO2Jsb2NrJmFwb3M7XS8qWzNdW25hbWUoKT0m
+YXBvcztpbnN0cmVhbS1mb3JlaWduLW9iamVjdCZhcG9zO10vKlsxXVtuYW1lKCk9
+JmFwb3M7c3ZnJmFwb3M7XSI+CgkgICAgICAgIDxwYXRoIHN0cm9rZT0iZ3JlZW4i
+IGQ9Ik0gNiA2IEMgNC4zNTU0NjkgNiAzIDcuMzU1NDY5IDMgOSBMIDMgMTUuNzgx
+MjUgQyAyLjM5MDYyNSAxNi4zMzIwMzEgMiAxNy4xMjEwOTQgMiAxOCBMIDIgMjcg
+TCA3IDI3IEwgNyAyNSBMIDI1IDI1IEwgMjUgMjcgTCAzMCAyNyBMIDMwIDE4IEMg
+MzAgMTcuMTIxMDk0IDI5LjYwOTM3NSAxNi4zMzIwMzEgMjkgMTUuNzgxMjUgTCAy
+OSA5IEMgMjkgNy4zNTU0NjkgMjcuNjQ0NTMxIDYgMjYgNiBaIE0gNiA4IEwgMjYg
+OCBDIDI2LjU1NDY4OCA4IDI3IDguNDQ1MzEzIDI3IDkgTCAyNyAxNSBMIDI1IDE1
+IEwgMjUgMTQgQyAyNSAxMi4zNTU0NjkgMjMuNjQ0NTMxIDExIDIyIDExIEwgMTgg
+MTEgQyAxNy4yMzQzNzUgMTEgMTYuNTMxMjUgMTEuMzAwNzgxIDE2IDExLjc4MTI1
+IEMgMTUuNDY4NzUgMTEuMzAwNzgxIDE0Ljc2NTYyNSAxMSAxNCAxMSBMIDEwIDEx
+IEMgOC4zNTU0NjkgMTEgNyAxMi4zNTU0NjkgNyAxNCBMIDcgMTUgTCA1IDE1IEwg
+NSA5IEMgNSA4LjQ0NTMxMyA1LjQ0NTMxMyA4IDYgOCBaIE0gMTAgMTMgTCAxNCAx
+MyBDIDE0LjU1NDY4OCAxMyAxNSAxMy40NDUzMTMgMTUgMTQgTCAxNSAxNSBMIDkg
+MTUgTCA5IDE0IEMgOSAxMy40NDUzMTMgOS40NDUzMTMgMTMgMTAgMTMgWiBNIDE4
+IDEzIEwgMjIgMTMgQyAyMi41NTQ2ODggMTMgMjMgMTMuNDQ1MzEzIDIzIDE0IEwg
+MjMgMTUgTCAxNyAxNSBMIDE3IDE0IEMgMTcgMTMuNDQ1MzEzIDE3LjQ0NTMxMyAx
+MyAxOCAxMyBaIE0gNSAxNyBMIDI3IDE3IEMgMjcuNTU0Njg4IDE3IDI4IDE3LjQ0
+NTMxMyAyOCAxOCBMIDI4IDI1IEwgMjcgMjUgTCAyNyAyMyBMIDUgMjMgTCA1IDI1
+IEwgNCAyNSBMIDQgMTggQyA0IDE3LjQ0NTMxMyA0LjQ0NTMxMyAxNyA1IDE3IFoi
+IHhtbG5zOnJ4PSJodHRwOi8vd3d3LnJlbmRlcnguY29tL1hTTC9FeHRlbnNpb25z
+IiByeDp4cGF0aD0iLypbMV1bbmFtZSgpPSZhcG9zO3Jvb3QmYXBvcztdLypbMl1b
+bmFtZSgpPSZhcG9zO3BhZ2Utc2VxdWVuY2UmYXBvcztdLypbMV1bbmFtZSgpPSZh
+cG9zO2Zsb3cmYXBvcztdLypbMl1bbmFtZSgpPSZhcG9zO2Jsb2NrJmFwb3M7XS8q
+WzNdW25hbWUoKT0mYXBvcztpbnN0cmVhbS1mb3JlaWduLW9iamVjdCZhcG9zO10v
+KlsxXVtuYW1lKCk9JmFwb3M7c3ZnJmFwb3M7XS8qWzFdW25hbWUoKT0mYXBvcztw
+YXRoJmFwb3M7XSIvPgogICAgICAgIDwvc3ZnPgogICAgICAg" base="file:/C:/Lazarusprojekte/trunk/FODevStudio/" type="image/svg+xml" x-from="219511" y-from="361255" scale-x="1.0" scale-y="1.0" width="79200" height="79200" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[2][name()=&apos;block&apos;]/*[3][name()=&apos;instream-foreign-object&apos;]" role="none"/>
+<xep:text value=" " x="298711" y="361255" width="3336" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[2][name()=&apos;block&apos;]"/>
+<xep:image src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KCiAgICAgICAg
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9
+IjAgMCAzMiAzMiIgd2lkdGg9IjEzMiIgaGVpZ2h0PSIxMzIiIHhtbG5zOnJ4PSJo
+dHRwOi8vd3d3LnJlbmRlcnguY29tL1hTTC9FeHRlbnNpb25zIiByeDp4cGF0aD0i
+LypbMV1bbmFtZSgpPSZhcG9zO3Jvb3QmYXBvcztdLypbMl1bbmFtZSgpPSZhcG9z
+O3BhZ2Utc2VxdWVuY2UmYXBvcztdLypbMV1bbmFtZSgpPSZhcG9zO2Zsb3cmYXBv
+cztdLypbMl1bbmFtZSgpPSZhcG9zO2Jsb2NrJmFwb3M7XS8qWzRdW25hbWUoKT0m
+YXBvcztpbnN0cmVhbS1mb3JlaWduLW9iamVjdCZhcG9zO10vKlsxXVtuYW1lKCk9
+JmFwb3M7c3ZnJmFwb3M7XSI+CgkgICAgICAgIDxwYXRoIHN0cm9rZT0icmVkIiBz
+dHJva2Utd2lkdGg9IjAuMiIgZD0iTSA2IDYgQyA0LjM1NTQ2OSA2IDMgNy4zNTU0
+NjkgMyA5IEwgMyAxNS43ODEyNSBDIDIuMzkwNjI1IDE2LjMzMjAzMSAyIDE3LjEy
+MTA5NCAyIDE4IEwgMiAyNyBMIDcgMjcgTCA3IDI1IEwgMjUgMjUgTCAyNSAyNyBM
+IDMwIDI3IEwgMzAgMTggQyAzMCAxNy4xMjEwOTQgMjkuNjA5Mzc1IDE2LjMzMjAz
+MSAyOSAxNS43ODEyNSBMIDI5IDkgQyAyOSA3LjM1NTQ2OSAyNy42NDQ1MzEgNiAy
+NiA2IFogTSA2IDggTCAyNiA4IEMgMjYuNTU0Njg4IDggMjcgOC40NDUzMTMgMjcg
+OSBMIDI3IDE1IEwgMjUgMTUgTCAyNSAxNCBDIDI1IDEyLjM1NTQ2OSAyMy42NDQ1
+MzEgMTEgMjIgMTEgTCAxOCAxMSBDIDE3LjIzNDM3NSAxMSAxNi41MzEyNSAxMS4z
+MDA3ODEgMTYgMTEuNzgxMjUgQyAxNS40Njg3NSAxMS4zMDA3ODEgMTQuNzY1NjI1
+IDExIDE0IDExIEwgMTAgMTEgQyA4LjM1NTQ2OSAxMSA3IDEyLjM1NTQ2OSA3IDE0
+IEwgNyAxNSBMIDUgMTUgTCA1IDkgQyA1IDguNDQ1MzEzIDUuNDQ1MzEzIDggNiA4
+IFogTSAxMCAxMyBMIDE0IDEzIEMgMTQuNTU0Njg4IDEzIDE1IDEzLjQ0NTMxMyAx
+NSAxNCBMIDE1IDE1IEwgOSAxNSBMIDkgMTQgQyA5IDEzLjQ0NTMxMyA5LjQ0NTMx
+MyAxMyAxMCAxMyBaIE0gMTggMTMgTCAyMiAxMyBDIDIyLjU1NDY4OCAxMyAyMyAx
+My40NDUzMTMgMjMgMTQgTCAyMyAxNSBMIDE3IDE1IEwgMTcgMTQgQyAxNyAxMy40
+NDUzMTMgMTcuNDQ1MzEzIDEzIDE4IDEzIFogTSA1IDE3IEwgMjcgMTcgQyAyNy41
+NTQ2ODggMTcgMjggMTcuNDQ1MzEzIDI4IDE4IEwgMjggMjUgTCAyNyAyNSBMIDI3
+IDIzIEwgNSAyMyBMIDUgMjUgTCA0IDI1IEwgNCAxOCBDIDQgMTcuNDQ1MzEzIDQu
+NDQ1MzEzIDE3IDUgMTcgWiIgeG1sbnM6cng9Imh0dHA6Ly93d3cucmVuZGVyeC5j
+b20vWFNML0V4dGVuc2lvbnMiIHJ4OnhwYXRoPSIvKlsxXVtuYW1lKCk9JmFwb3M7
+cm9vdCZhcG9zO10vKlsyXVtuYW1lKCk9JmFwb3M7cGFnZS1zZXF1ZW5jZSZhcG9z
+O10vKlsxXVtuYW1lKCk9JmFwb3M7ZmxvdyZhcG9zO10vKlsyXVtuYW1lKCk9JmFw
+b3M7YmxvY2smYXBvcztdLypbNF1bbmFtZSgpPSZhcG9zO2luc3RyZWFtLWZvcmVp
+Z24tb2JqZWN0JmFwb3M7XS8qWzFdW25hbWUoKT0mYXBvcztzdmcmYXBvcztdLypb
+MV1bbmFtZSgpPSZhcG9zO3BhdGgmYXBvcztdIi8+CiAgICAgICAgPC9zdmc+CiAg
+ICAgICA=" base="file:/C:/Lazarusprojekte/trunk/FODevStudio/" type="image/svg+xml" x-from="302047" y-from="361255" scale-x="1.0" scale-y="1.0" width="79200" height="79200" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[2][name()=&apos;block&apos;]/*[4][name()=&apos;instream-foreign-object&apos;]" role="none"/>
+<xep:text value=" " x="381247" y="361255" width="3336" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[2][name()=&apos;block&apos;]"/>
+<xep:image src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KCiAgICAgICAg
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9
+IjAgMCAzMiAzMiIgd2lkdGg9IjEzMiIgaGVpZ2h0PSIxMzIiIHhtbG5zOnJ4PSJo
+dHRwOi8vd3d3LnJlbmRlcnguY29tL1hTTC9FeHRlbnNpb25zIiByeDp4cGF0aD0i
+LypbMV1bbmFtZSgpPSZhcG9zO3Jvb3QmYXBvcztdLypbMl1bbmFtZSgpPSZhcG9z
+O3BhZ2Utc2VxdWVuY2UmYXBvcztdLypbMV1bbmFtZSgpPSZhcG9zO2Zsb3cmYXBv
+cztdLypbMl1bbmFtZSgpPSZhcG9zO2Jsb2NrJmFwb3M7XS8qWzVdW25hbWUoKT0m
+YXBvcztpbnN0cmVhbS1mb3JlaWduLW9iamVjdCZhcG9zO10vKlsxXVtuYW1lKCk9
+JmFwb3M7c3ZnJmFwb3M7XSI+CgkgICAgICAgIDxwYXRoIGZpbGw9InJlZCIgZD0i
+TSA2IDYgQyA0LjM1NTQ2OSA2IDMgNy4zNTU0NjkgMyA5IEwgMyAxNS43ODEyNSBD
+IDIuMzkwNjI1IDE2LjMzMjAzMSAyIDE3LjEyMTA5NCAyIDE4IEwgMiAyNyBMIDcg
+MjcgTCA3IDI1IEwgMjUgMjUgTCAyNSAyNyBMIDMwIDI3IEwgMzAgMTggQyAzMCAx
+Ny4xMjEwOTQgMjkuNjA5Mzc1IDE2LjMzMjAzMSAyOSAxNS43ODEyNSBMIDI5IDkg
+QyAyOSA3LjM1NTQ2OSAyNy42NDQ1MzEgNiAyNiA2IFogTSA2IDggTCAyNiA4IEMg
+MjYuNTU0Njg4IDggMjcgOC40NDUzMTMgMjcgOSBMIDI3IDE1IEwgMjUgMTUgTCAy
+NSAxNCBDIDI1IDEyLjM1NTQ2OSAyMy42NDQ1MzEgMTEgMjIgMTEgTCAxOCAxMSBD
+IDE3LjIzNDM3NSAxMSAxNi41MzEyNSAxMS4zMDA3ODEgMTYgMTEuNzgxMjUgQyAx
+NS40Njg3NSAxMS4zMDA3ODEgMTQuNzY1NjI1IDExIDE0IDExIEwgMTAgMTEgQyA4
+LjM1NTQ2OSAxMSA3IDEyLjM1NTQ2OSA3IDE0IEwgNyAxNSBMIDUgMTUgTCA1IDkg
+QyA1IDguNDQ1MzEzIDUuNDQ1MzEzIDggNiA4IFogTSAxMCAxMyBMIDE0IDEzIEMg
+MTQuNTU0Njg4IDEzIDE1IDEzLjQ0NTMxMyAxNSAxNCBMIDE1IDE1IEwgOSAxNSBM
+IDkgMTQgQyA5IDEzLjQ0NTMxMyA5LjQ0NTMxMyAxMyAxMCAxMyBaIE0gMTggMTMg
+TCAyMiAxMyBDIDIyLjU1NDY4OCAxMyAyMyAxMy40NDUzMTMgMjMgMTQgTCAyMyAx
+NSBMIDE3IDE1IEwgMTcgMTQgQyAxNyAxMy40NDUzMTMgMTcuNDQ1MzEzIDEzIDE4
+IDEzIFogTSA1IDE3IEwgMjcgMTcgQyAyNy41NTQ2ODggMTcgMjggMTcuNDQ1MzEz
+IDI4IDE4IEwgMjggMjUgTCAyNyAyNSBMIDI3IDIzIEwgNSAyMyBMIDUgMjUgTCA0
+IDI1IEwgNCAxOCBDIDQgMTcuNDQ1MzEzIDQuNDQ1MzEzIDE3IDUgMTcgWiIgeG1s
+bnM6cng9Imh0dHA6Ly93d3cucmVuZGVyeC5jb20vWFNML0V4dGVuc2lvbnMiIHJ4
+OnhwYXRoPSIvKlsxXVtuYW1lKCk9JmFwb3M7cm9vdCZhcG9zO10vKlsyXVtuYW1l
+KCk9JmFwb3M7cGFnZS1zZXF1ZW5jZSZhcG9zO10vKlsxXVtuYW1lKCk9JmFwb3M7
+ZmxvdyZhcG9zO10vKlsyXVtuYW1lKCk9JmFwb3M7YmxvY2smYXBvcztdLypbNV1b
+bmFtZSgpPSZhcG9zO2luc3RyZWFtLWZvcmVpZ24tb2JqZWN0JmFwb3M7XS8qWzFd
+W25hbWUoKT0mYXBvcztzdmcmYXBvcztdLypbMV1bbmFtZSgpPSZhcG9zO3BhdGgm
+YXBvcztdIi8+CiAgICAgICAgPC9zdmc+CiAgICAgICA=" base="file:/C:/Lazarusprojekte/trunk/FODevStudio/" type="image/svg+xml" x-from="384583" y-from="361255" scale-x="1.0" scale-y="1.0" width="79200" height="79200" xpath="/*[1][name()=&apos;root&apos;]/*[2][name()=&apos;page-sequence&apos;]/*[1][name()=&apos;flow&apos;]/*[2][name()=&apos;block&apos;]/*[5][name()=&apos;instream-foreign-object&apos;]" role="none"/>
+</xep:page>
+</xep:document>

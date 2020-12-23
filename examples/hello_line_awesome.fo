@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ======================================================  -->
+<!--                                                         -->
+<!-- ======================================================  -->
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:rx="http://www.renderx.com/XSL/Extensions">
+  <fo:layout-master-set>
+    <fo:simple-page-master master-name="SinglePage" page-width="210mm" page-height="297mm">
+      <fo:region-body region-name="xsl-region-body" margin="17mm" column-gap="6mm" border="0.25pt solid gray" padding="6pt"/>
+      <fo:region-before region-name="xsl-region-before" extent="17mm" display-align="after" padding="6pt 17mm"/>
+      <fo:region-after region-name="xsl-region-after" extent="17mm" display-align="before" padding="6pt 17mm"/>
+    </fo:simple-page-master>
+  </fo:layout-master-set>
+  <fo:page-sequence master-reference="SinglePage" force-page-count="odd">
+    <fo:flow flow-name="xsl-region-body">
+      <fo:block text-align="center" font-size="12pt">Hello World!
+        <fo:list-block text-align="left" provisional-distance-between-starts="12mm" start-indent="0mm" end-indent="10mm" display-align="center">
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block background-color="yellow" color="red" font-size="0pt">
+                <fo:external-graphic src="url('C:\Users\kirchfr\Downloads\line-awesome-1.3.0\1.3.0\svg\biking-solid.svg')" content-width="10mm"/>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block background-color="lightblue">biking-solid.svg</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block background-color="yellow" color="red" font-size="0pt">
+                <fo:external-graphic src="url('C:\Users\kirchfr\Downloads\line-awesome-1.3.0\1.3.0\svg\500px.svg')" content-width="8mm"/>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block background-color="lightblue">500px.svg</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block background-color="yellow" color="red" font-size="0pt">
+                <fo:external-graphic src="url('C:\Users\kirchfr\Downloads\line-awesome-1.3.0\1.3.0\svg\accessible-icon.svg')" content-width="8mm"/>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block background-color="lightblue">accessible-icon.svg</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block background-color="yellow" color="red" font-size="0pt">
+                <fo:external-graphic src="url('C:\Users\kirchfr\Downloads\line-awesome-1.3.0\1.3.0\svg\accusoft.svg')" content-width="8mm"/>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block background-color="lightblue">accusoft.svg</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block background-color="yellow" color="red" font-size="0pt">
+                <fo:external-graphic src="url('C:\Users\kirchfr\Downloads\line-awesome-1.3.0\1.3.0\svg\acquisitions-incorporated.svg')" content-width="8mm"/>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block background-color="lightblue">acquisitions-incorporated.svg</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block background-color="yellow" color="red" font-size="0pt">
+                <fo:external-graphic src="url('C:\Users\kirchfr\Downloads\line-awesome-1.3.0\1.3.0\svg\address-book.svg')" content-width="8mm"/>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block background-color="lightblue">address-book.svg</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block background-color="yellow" color="red" font-size="0pt">
+                <fo:external-graphic src="url('C:\Users\kirchfr\Downloads\line-awesome-1.3.0\1.3.0\svg\address-book-solid.svg')" content-width="8mm"/>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block background-color="lightblue">address-book-solid.svg</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+
+
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block background-color="yellow" color="red" font-size="0pt">
+                <fo:external-graphic src="url('C:\Users\kirchfr\Downloads\line-awesome-1.3.0\1.3.0\svg\address-card.svg')" content-width="8mm"/>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block background-color="lightblue">address-card.svg</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block background-color="yellow" color="red" font-size="0pt">
+                <fo:external-graphic src="url('C:\Users\kirchfr\Downloads\line-awesome-1.3.0\1.3.0\svg\address-card-solid.svg')" content-width="8mm"/>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block background-color="lightblue">address-card-solid.svg</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+
+
+          <fo:list-item>
+            <fo:list-item-label end-indent="label-end()">
+              <fo:block background-color="yellow" color="red" font-size="0pt">
+                <fo:external-graphic src="url('C:\Users\kirchfr\Downloads\line-awesome-1.3.0\1.3.0\svg\clock.svg')" content-width="10mm"/>
+              </fo:block>
+            </fo:list-item-label>
+            <fo:list-item-body start-indent="body-start()">
+              <fo:block background-color="lightblue">Mo-Fr 8:00 - 18:00 Uhr <fo:block/>Samstag nur nach Vereinbarung <fo:block/>Sonntags nur Fliesenausstellung</fo:block>
+            </fo:list-item-body>
+          </fo:list-item>
+        </fo:list-block>
+        <fo:table width="100%" text-align="left">
+          <fo:table-column column-width="12mm"/>
+          <fo:table-column/>
+          <fo:table-body>
+            <fo:table-row>
+              <fo:table-cell display-align="center">
+                <fo:block text-align="left">
+                  <fo:external-graphic src="url('C:\Users\kirchfr\Downloads\line-awesome-1.3.0\1.3.0\svg\bicycle-solid.svg')" content-width="10mm"/>
+                </fo:block>
+              </fo:table-cell>
+              <fo:table-cell display-align="center" border="0.2pt solid red">
+                <fo:block text-align="left">Lorem ipsum<fo:block/> dolor sit amet Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+</fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+          </fo:table-body>
+        </fo:table>
+      </fo:block>
+
+      <fo:block>
+      <fo:instream-foreign-object>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="132" height="132">
+	        <path stroke="blue" fill="blue" d="M 6 6 C 4.355469 6 3 7.355469 3 9 L 3 15.78125 C 2.390625 16.332031 2 17.121094 2 18 L 2 27 L 7 27 L 7 25 L 25 25 L 25 27 L 30 27 L 30 18 C 30 17.121094 29.609375 16.332031 29 15.78125 L 29 9 C 29 7.355469 27.644531 6 26 6 Z M 6 8 L 26 8 C 26.554688 8 27 8.445313 27 9 L 27 15 L 25 15 L 25 14 C 25 12.355469 23.644531 11 22 11 L 18 11 C 17.234375 11 16.53125 11.300781 16 11.78125 C 15.46875 11.300781 14.765625 11 14 11 L 10 11 C 8.355469 11 7 12.355469 7 14 L 7 15 L 5 15 L 5 9 C 5 8.445313 5.445313 8 6 8 Z M 10 13 L 14 13 C 14.554688 13 15 13.445313 15 14 L 15 15 L 9 15 L 9 14 C 9 13.445313 9.445313 13 10 13 Z M 18 13 L 22 13 C 22.554688 13 23 13.445313 23 14 L 23 15 L 17 15 L 17 14 C 17 13.445313 17.445313 13 18 13 Z M 5 17 L 27 17 C 27.554688 17 28 17.445313 28 18 L 28 25 L 27 25 L 27 23 L 5 23 L 5 25 L 4 25 L 4 18 C 4 17.445313 4.445313 17 5 17 Z"/>
+        </svg>
+       </fo:instream-foreign-object>
+      <fo:instream-foreign-object>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="132" height="132">
+	        <path stroke="blue" fill="yellow" d="M 6 6 C 4.355469 6 3 7.355469 3 9 L 3 15.78125 C 2.390625 16.332031 2 17.121094 2 18 L 2 27 L 7 27 L 7 25 L 25 25 L 25 27 L 30 27 L 30 18 C 30 17.121094 29.609375 16.332031 29 15.78125 L 29 9 C 29 7.355469 27.644531 6 26 6 Z M 6 8 L 26 8 C 26.554688 8 27 8.445313 27 9 L 27 15 L 25 15 L 25 14 C 25 12.355469 23.644531 11 22 11 L 18 11 C 17.234375 11 16.53125 11.300781 16 11.78125 C 15.46875 11.300781 14.765625 11 14 11 L 10 11 C 8.355469 11 7 12.355469 7 14 L 7 15 L 5 15 L 5 9 C 5 8.445313 5.445313 8 6 8 Z M 10 13 L 14 13 C 14.554688 13 15 13.445313 15 14 L 15 15 L 9 15 L 9 14 C 9 13.445313 9.445313 13 10 13 Z M 18 13 L 22 13 C 22.554688 13 23 13.445313 23 14 L 23 15 L 17 15 L 17 14 C 17 13.445313 17.445313 13 18 13 Z M 5 17 L 27 17 C 27.554688 17 28 17.445313 28 18 L 28 25 L 27 25 L 27 23 L 5 23 L 5 25 L 4 25 L 4 18 C 4 17.445313 4.445313 17 5 17 Z"/>
+        </svg>
+       </fo:instream-foreign-object>
+
+     <fo:instream-foreign-object>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="132" height="132">
+	        <path stroke="green" d="M 6 6 C 4.355469 6 3 7.355469 3 9 L 3 15.78125 C 2.390625 16.332031 2 17.121094 2 18 L 2 27 L 7 27 L 7 25 L 25 25 L 25 27 L 30 27 L 30 18 C 30 17.121094 29.609375 16.332031 29 15.78125 L 29 9 C 29 7.355469 27.644531 6 26 6 Z M 6 8 L 26 8 C 26.554688 8 27 8.445313 27 9 L 27 15 L 25 15 L 25 14 C 25 12.355469 23.644531 11 22 11 L 18 11 C 17.234375 11 16.53125 11.300781 16 11.78125 C 15.46875 11.300781 14.765625 11 14 11 L 10 11 C 8.355469 11 7 12.355469 7 14 L 7 15 L 5 15 L 5 9 C 5 8.445313 5.445313 8 6 8 Z M 10 13 L 14 13 C 14.554688 13 15 13.445313 15 14 L 15 15 L 9 15 L 9 14 C 9 13.445313 9.445313 13 10 13 Z M 18 13 L 22 13 C 22.554688 13 23 13.445313 23 14 L 23 15 L 17 15 L 17 14 C 17 13.445313 17.445313 13 18 13 Z M 5 17 L 27 17 C 27.554688 17 28 17.445313 28 18 L 28 25 L 27 25 L 27 23 L 5 23 L 5 25 L 4 25 L 4 18 C 4 17.445313 4.445313 17 5 17 Z"/>
+        </svg>
+       </fo:instream-foreign-object>
+
+     <fo:instream-foreign-object>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="132" height="132">
+	        <path stroke="red" stroke-width="0.2" d="M 6 6 C 4.355469 6 3 7.355469 3 9 L 3 15.78125 C 2.390625 16.332031 2 17.121094 2 18 L 2 27 L 7 27 L 7 25 L 25 25 L 25 27 L 30 27 L 30 18 C 30 17.121094 29.609375 16.332031 29 15.78125 L 29 9 C 29 7.355469 27.644531 6 26 6 Z M 6 8 L 26 8 C 26.554688 8 27 8.445313 27 9 L 27 15 L 25 15 L 25 14 C 25 12.355469 23.644531 11 22 11 L 18 11 C 17.234375 11 16.53125 11.300781 16 11.78125 C 15.46875 11.300781 14.765625 11 14 11 L 10 11 C 8.355469 11 7 12.355469 7 14 L 7 15 L 5 15 L 5 9 C 5 8.445313 5.445313 8 6 8 Z M 10 13 L 14 13 C 14.554688 13 15 13.445313 15 14 L 15 15 L 9 15 L 9 14 C 9 13.445313 9.445313 13 10 13 Z M 18 13 L 22 13 C 22.554688 13 23 13.445313 23 14 L 23 15 L 17 15 L 17 14 C 17 13.445313 17.445313 13 18 13 Z M 5 17 L 27 17 C 27.554688 17 28 17.445313 28 18 L 28 25 L 27 25 L 27 23 L 5 23 L 5 25 L 4 25 L 4 18 C 4 17.445313 4.445313 17 5 17 Z"/>
+        </svg>
+       </fo:instream-foreign-object>
+
+     <fo:instream-foreign-object>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="132" height="132">
+	        <path fill="red" d="M 6 6 C 4.355469 6 3 7.355469 3 9 L 3 15.78125 C 2.390625 16.332031 2 17.121094 2 18 L 2 27 L 7 27 L 7 25 L 25 25 L 25 27 L 30 27 L 30 18 C 30 17.121094 29.609375 16.332031 29 15.78125 L 29 9 C 29 7.355469 27.644531 6 26 6 Z M 6 8 L 26 8 C 26.554688 8 27 8.445313 27 9 L 27 15 L 25 15 L 25 14 C 25 12.355469 23.644531 11 22 11 L 18 11 C 17.234375 11 16.53125 11.300781 16 11.78125 C 15.46875 11.300781 14.765625 11 14 11 L 10 11 C 8.355469 11 7 12.355469 7 14 L 7 15 L 5 15 L 5 9 C 5 8.445313 5.445313 8 6 8 Z M 10 13 L 14 13 C 14.554688 13 15 13.445313 15 14 L 15 15 L 9 15 L 9 14 C 9 13.445313 9.445313 13 10 13 Z M 18 13 L 22 13 C 22.554688 13 23 13.445313 23 14 L 23 15 L 17 15 L 17 14 C 17 13.445313 17.445313 13 18 13 Z M 5 17 L 27 17 C 27.554688 17 28 17.445313 28 18 L 28 25 L 27 25 L 27 23 L 5 23 L 5 25 L 4 25 L 4 18 C 4 17.445313 4.445313 17 5 17 Z"/>
+        </svg>
+       </fo:instream-foreign-object>
+
+      </fo:block>
+    </fo:flow>
+  </fo:page-sequence>
+</fo:root>

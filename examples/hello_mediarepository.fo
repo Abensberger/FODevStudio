@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xep-out-embed-images true?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+	<fo:layout-master-set>
+		<fo:simple-page-master page-width="50mm" page-height="100mm" master-name="first">
+			<fo:region-body display-align="center"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="first">
+		<fo:flow flow-name="xsl-region-body">
+			<fo:block text-align-last="center" text-align="center">  				<!--    			<fo:external-graphic src="url('http://mre12.it2media.de:8081/mr/v01/~~~120/mediafile/id/20021211/filetype/pdf?mimetype=true')"/> 	-->
+<fo:external-graphic src="url('http://mrq12.it2media.de:8081/mr/v01/~~~200/mediafile/id/41511906/filetype/pdf?mimetype=true')"/>   <fo:external-graphic src="url('http://mrq12.it2media.de:8081/mr/v01/~~~200/mediafile/id/60317263/filetype/pdf?mimetype=true')"/>
+				<fo:external-graphic src="url('http://mrq12.it2media.de:8081/mr/v01/~~~200/mediafile/id/60317263/filetype/pdf?mimetype=true')"/>
+				<fo:external-graphic src="url('http://mrq12.it2media.de:8081/mr/v01/~~~200/mediafile/id/60317263/filetype/pdf?mimetype=true')"/>
+				<fo:external-graphic src="url('http://mrq12.it2media.de:8081/mr/v01/~~~200/mediafile/id/60317263/filetype/pdf?mimetype=true')"/>
+			</fo:block>
+		</fo:flow>
+	</fo:page-sequence>
+</fo:root>

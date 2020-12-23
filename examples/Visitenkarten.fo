@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- ======================================================  -->
+<!--                                                         -->
+<!-- ======================================================  -->
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:rx="http://www.renderx.com/XSL/Extensions">
+  <fo:layout-master-set>
+     <fo:simple-page-master master-name="SinglePage" page-width="90mm" page-height="55mm">
+        <fo:region-body region-name="xsl-region-body" margin-left="5mm" margin-top="0mm" margin-bottom="1mm" border="0.25pt solid gray" padding="0pt"/>
+        <fo:region-before region-name="xsl-region-before" extent="17mm" display-align="after" padding="6pt 17mm"/>
+        <fo:region-after region-name="xsl-region-after" extent="17mm" display-align="before" padding="6pt 17mm"/>
+     </fo:simple-page-master>
+  </fo:layout-master-set>
+  <fo:page-sequence master-reference="SinglePage">
+     <fo:flow flow-name="xsl-region-body">
+        <fo:block-container absolute-position="fixed" width="20mm" height="20mm" left="65mm" top="5mm" background-color="red"/>
+        <fo:block margin-top="12mm" text-align="left" font-size="10pt">
+           <fo:block font-weight="bold" font-size="13pt">Martina Muster</fo:block>
+           <fo:block >Verkaufsleiterin</fo:block>
+           <fo:block space-after="2mm">SAMPLE International GmbH</fo:block>
+           <fo:block >Musterplatz 1, 12345 Irgendwo</fo:block>
+           <fo:block >Tel: +99 123 45 67 89-013</fo:block>
+           <fo:block >Mobil: +99 77 345 67 89</fo:block>
+           <fo:block >Fax: +99 12 345 67 89-002</fo:block>
+           <fo:block >E-Mail: m.muster@sample-corporation.com</fo:block>
+           <fo:block >www.sample-corporation.com</fo:block>
+        </fo:block>
+     </fo:flow>
+  </fo:page-sequence>
+</fo:root>

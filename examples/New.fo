@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- ======================================================  -->
+<!--                                                         -->
+<!-- ======================================================  -->
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:rx="http://www.renderx.com/XSL/Extensions">
+  <fo:layout-master-set>
+     <fo:simple-page-master master-name="SinglePage" page-width="210mm" page-height="297mm">
+        <fo:region-body region-name="xsl-region-body" margin="17mm" column-gap="6mm" border="0.25pt solid gray" padding="6pt"/>
+        <fo:region-before region-name="xsl-region-before" extent="17mm" display-align="after" padding="6pt 17mm"/>
+        <fo:region-after region-name="xsl-region-after" extent="17mm" display-align="before" padding="6pt 17mm"/>
+     </fo:simple-page-master>
+  </fo:layout-master-set>
+  <fo:page-sequence master-reference="SinglePage" force-page-count="odd">
+     <fo:flow flow-name="xsl-region-body">
+        <fo:block text-align="center" font-size="12pt">
+           Hello World!
+        </fo:block>
+     </fo:flow>
+  </fo:page-sequence>
+</fo:root>
