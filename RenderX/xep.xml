@@ -267,24 +267,6 @@
       </font-family>
     </font-group>
 	
-	<font-group label="WTV" embed="true" subset="true">
-        <font-family name="Frutiger-LightCn">
-            <font><font-data otf="C:\svn\trunk\PSFONTS\OTF\3Frutiger-LightCn.otf"/></font>
-        </font-family>
-        <font-family name="Frutiger-BoldCn">
-            <font><font-data otf="C:\svn\trunk\PSFONTS\OTF\3Frutiger-BoldCn.otf"/></font>
-        </font-family>
-        <font-family name="Frutiger-ExtraBlackCn">
-            <font><font-data otf="C:\svn\trunk\PSFONTS\OTF\3Frutiger-ExtraBlackCn.otf"/></font>
-        </font-family>
-    </font-group>
-	
-	<font-group label="Sutter" embed="true" subset="true">
-		<font-family name="RotisSansSerif">
-			<font><font-data otf="C:\PSFONTS\Sutter\RotisSansSerif.otf"/></font>
-			<font weight="bold"><font-data ttf="C:\PSFONTS\Sutter\RotisSansSerifExBold.ttf"/></font>
-		</font-family>
-	</font-group>
 	
 	<font-group label="Sonderfont" embed="true" subset="true">
 		<font-family name="SonderfontOTF">
@@ -292,24 +274,9 @@
 		</font-family>
 	</font-group>
 	
-	<font-group label="Klopp" embed="true" subset="true">
-		<font-family name="BaukastFont">
-			<font><font-data ttf="C:\PSFONTS\TTF\BaukastFont.ttf"/></font>
-		</font-family>
-<!--		<font-family name="Swiss721sss">
-			<font><font-data otf="X:\fontvergleich\Christ-JKV-SW721BTR.OTF"/></font>
-		</font-family>
--->		
-	</font-group>
     
     
     <!-- Required aliases -->      
-    <font-alias name="WTV-Frutiger-BoldCn" value="Frutiger-BoldCn"/>
-    <font-alias name="WTV-Frutiger-LightCn" value="Frutiger-LightCn"/>
-    <font-alias name="Full-Frutiger-BoldCn" value="Frutiger-BoldCn"/>
-    <font-alias name="Full-Frutiger-LightCn" value="Frutiger-LightCn"/>
-    <font-alias name="Full-Frutiger-ExtraBlackCn" value="Frutiger-ExtraBlackCn"/>
-    <font-alias name="FrutigerLT" value="Frutiger-LightCn"/>
     <font-alias name="monospace" value="Courier"/>
     <font-alias name="sans-serif" value="Helvetica"/>
     <font-alias name="serif" value="Times"/>    
