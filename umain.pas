@@ -286,7 +286,6 @@ end;
 
 procedure TForm1.actApplicationSettingsExecute(Sender: TObject);
 Var Ini : TIniFile;
-
 begin
   Ini := TIniFile.Create('Settings.ini');
   with ProgOptions do
@@ -295,7 +294,9 @@ begin
    CheckBox2.Checked := Ini.ReadBool('General', 'Start FullScreen', False);
    CheckBox3.Checked := Ini.ReadBool('General', 'Save WSIZEPOS', False);
    Edit1.Text        := Ini.ReadString('General','FontName','Courier New');
-   if Assigned(PageControl1.ActivePage) then
+
+   if  Assigned(PageControl.ActivePage) and
+      (PageControl.ActivePage.ControlCount > 0) then
    begin
     with PageControl.ActivePage.Controls[0] as TSynEdit do
       begin
