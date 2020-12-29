@@ -339,13 +339,19 @@ var
 begin
 
   s := (PageControl.ActivePage.Controls[0] as TSynEdit).Lines.Text;
+
+  s := StringReplace(s,'&#x','~~~',[rfReplaceAll]);
+
   ss := TStringStream.Create(s);
   XML := nil;
   ReadXMLFile(XML,SS);
   sout := TStringStream.Create('');
   laz2_XMLWrite.WriteXMLFile(XML,sout);
   sout.Position := 0;
-  (PageControl.ActivePage.Controls[0] as TSynEdit).Lines.Text := sOut.DataString;
+
+  s := StringReplace(sOut.DataString,'~~~','&#x',[rfReplaceAll]);
+
+  (PageControl.ActivePage.Controls[0] as TSynEdit).Lines.Text := s;
 
   //PrettyXml(s);
 end;
