@@ -16,7 +16,8 @@ uses
   IniFiles,
   u_progOptions,
   PdfiumCore,
-  PdfiumCtrl;
+  PdfiumCtrl,
+  uSplash;
 
 const _BLINDTEXT = 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'+
                    #13#10+
@@ -221,6 +222,7 @@ type
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure FormPaint(Sender: TObject);
+    procedure FormShow(Sender: TObject);
     procedure MainTimerTimer(Sender: TObject);
     procedure MenuItem12Click(Sender: TObject);
     procedure MenuItem4Click(Sender: TObject);
@@ -281,7 +283,7 @@ end;
 
 procedure TForm1.actApplicationInfoExecute(Sender: TObject);
 begin
-
+  uSplash.Splashform.ShowModal;
 end;
 
 procedure TForm1.actApplicationSettingsExecute(Sender: TObject);
@@ -595,7 +597,7 @@ Var P : TProcessExt;
     S, ToolsPath, ToolsProg, ToolsArgs, CmdLine : String;
     SL : TStringList;
 begin
-  If Assigned(PageControl.ActivePage) Then
+  if Assigned(PageControl.ActivePage) Then
   Begin
    try
      try
@@ -918,6 +920,11 @@ If FirstShow Then
 
   MainTimer.Enabled := True;
  End;
+end;
+
+procedure TForm1.FormShow(Sender: TObject);
+begin
+  Splashform.ShowModal;
 end;
 
 procedure TForm1.MainTimerTimer(Sender: TObject);
