@@ -6,7 +6,7 @@ set CurPath=%~dp0
 @ECHO ** %CurPath%CHECKPDF.BAT
 @ECHO ************************************************
 ::
-rem   This batch file encapsulates a standard XEP call. 
+rem   This batch file encapsulates a standard XEP call combined with a MetaDaten.jar call. 
 
 set FO=%1
 set PDF="%~dpn1%.PDF"
@@ -30,8 +30,8 @@ CALL %CurPath%xep.bat -xep %XEP% -pdf %PDF%
 
 
 if EXIST %PDF% (
-ECHO java -jar C:\Lazarusprojekte\trunk\FODevStudio\Tools\MetaDaten.jar -in %PDF% -out %OUTFILE% -f 
-java -jar C:\Lazarusprojekte\trunk\FODevStudio\Tools\MetaDaten.jar -in %PDF% -out %OUTFILE% -f 
+ECHO java -jar %CurPath%MetaDaten.jar -in %PDF% -out %OUTFILE% -f 
+java -jar %CurPath%MetaDaten.jar -in %PDF% -out %OUTFILE% -f 
 )
 goto ENDE
 
