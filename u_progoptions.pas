@@ -19,6 +19,8 @@ type
     CheckBox1: TCheckBox;
     CheckBox2: TCheckBox;
     CheckBox3: TCheckBox;
+    CheckBox4: TCheckBox;
+    CheckBox5: TCheckBox;
     Edit1: TEdit;
     Edit2: TEdit;
     FontDialog1: TFontDialog;
@@ -51,6 +53,7 @@ procedure TProgOptions.BitBtn2Click(Sender: TObject);
 begin
   close;
 end;
+
 
 procedure TProgOptions.Button1Click(Sender: TObject);
 begin

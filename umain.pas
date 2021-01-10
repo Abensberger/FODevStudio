@@ -224,6 +224,7 @@ type
     procedure Button2Click(Sender: TObject);
     procedure ComboBox1Change(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure FormDblClick(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure FormPaint(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -299,6 +300,9 @@ begin
    CheckBox1.Checked := Ini.ReadBool('General', 'Reopen Last Project', False);
    CheckBox2.Checked := Ini.ReadBool('General', 'Start FullScreen', False);
    CheckBox3.Checked := Ini.ReadBool('General', 'Save WSIZEPOS', False);
+   CheckBox4.Checked := Ini.ReadBool('General', 'Show Toolbar Hints', True);
+   CheckBox5.Checked := Ini.ReadBool('General', 'Show Toolbar Captions', True);
+
    Edit1.Text        := Ini.ReadString('General','FontName','Courier New');
 
    if  Assigned(PageControl.ActivePage) and
@@ -320,10 +324,13 @@ begin
      Ini.WriteBool('General', 'Reopen Last Project',CheckBox1.Checked);
      Ini.WriteBool('General', 'Start FullScreen',CheckBox2.Checked);
      Ini.WriteBool('General', 'Save WSIZEPOS',CheckBox3.Checked);
+     Ini.WriteBool('General', 'Show Toolbar Hints',CheckBox4.Checked);
+     Ini.WriteBool('General', 'Show Toolbar Captions',CheckBox5.Checked);
      Ini.WriteString('General','FontName',Edit1.text);
      Ini.WriteString('General','FontSize',Edit2.text);
 
-     if Assigned(PageControl1.ActivePage) then
+     if Assigned(PageControl.ActivePage) and
+      (PageControl.ActivePage.ControlCount > 0) then
      with PageControl.ActivePage.Controls[0] as TSynEdit do
      begin
        Font.Name := Edit1.text;
@@ -331,6 +338,8 @@ begin
      end;
      UserFont := Edit1.text;
      UserFontSize := StrToInt(Edit2.Text);
+     Toolbar.ShowHint     := Checkbox4.Checked;
+     Toolbar.ShowCaptions := Checkbox5.Checked;
    end;
 
   end;
@@ -889,6 +898,11 @@ begin
 
 end;
 
+procedure TForm1.FormDblClick(Sender: TObject);
+begin
+
+end;
+
 procedure TForm1.FormDestroy(Sender: TObject);
 Var
   IniFile : TIniFile;
@@ -1170,12 +1184,14 @@ Var Ini : TIniFile;
     NP, Ind : Integer;
 begin
    Ini := TIniFile.Create('Settings.ini');
-   LastPrj        := Ini.ReadBool('General', 'Reopen Last Project', False);
-   StartFSM       := Ini.ReadBool('General', 'Start FSM', False);
-   SaveWSP        := Ini.ReadBool('General', 'Save WSIZEPOS', False);
-   ValTransparent := Ini.ReadInteger('General', 'Transparent', 168);
-   UserFont       := Ini.ReadString('General', 'FontName', 'Courier New');
-   UserFontSize   := Ini.ReadInteger('General', 'FontSize', 10);
+   LastPrj          := Ini.ReadBool('General', 'Reopen Last Project', False);
+   StartFSM         := Ini.ReadBool('General', 'Start FSM', False);
+   SaveWSP          := Ini.ReadBool('General', 'Save WSIZEPOS', False);
+   ValTransparent   := Ini.ReadInteger('General', 'Transparent', 168);
+   UserFont         := Ini.ReadString('General', 'FontName', 'Courier New');
+   UserFontSize     := Ini.ReadInteger('General', 'FontSize', 10);
+   ToolBar.ShowHint := Ini.ReadBool('General','Show Toolbar Hints',Toolbar.ShowHint);
+   ToolBar.ShowCaptions := Ini.ReadBool('General','Show Toolbar Captions',Toolbar.ShowCaptions);
    Ini.Free;
 end;
 

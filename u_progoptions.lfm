@@ -99,6 +99,22 @@ object ProgOptions: TProgOptions
           TabOrder = 2
         end
       end
+      object CheckBox4: TCheckBox
+        Left = 8
+        Height = 24
+        Top = 224
+        Width = 274
+        Caption = 'Hinweise für die Haupt-SpeedButtons'
+        TabOrder = 4
+      end
+      object CheckBox5: TCheckBox
+        Left = 8
+        Height = 24
+        Top = 264
+        Width = 275
+        Caption = 'Beschriftung der Haupt-SpeedButtons'
+        TabOrder = 5
+      end
     end
     object TabSheet2: TTabSheet
       Caption = 'Editor Optionen'
