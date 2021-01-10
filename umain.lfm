@@ -1435,6 +1435,7 @@ object Form1: TForm1
       Hint = 'XSL-FO nach XEP konvertieren'
       ImageIndex = 1000
       OnExecute = actExecCompileExecute
+      OnUpdate = actExecCompileUpdate
     end
     object actExecCreatePDF: TAction
       Category = 'Tools'
@@ -1442,6 +1443,7 @@ object Form1: TForm1
       Hint = 'XSL-FO nach PDF konvertieren'
       ImageIndex = 629
       OnExecute = actExecCreatePDFExecute
+      OnUpdate = actExecCreatePDFUpdate
     end
     object actEditCut: TAction
       Category = 'Edit'
@@ -1476,6 +1478,7 @@ object Form1: TForm1
       Hint = 'XML formatieren'
       ImageIndex = 1001
       OnExecute = actEditCodeBeautifyExecute
+      OnUpdate = actEditCodeBeautifyUpdate
     end
     object actApplicationSettings: TAction
       Category = 'Application'
@@ -1576,6 +1579,7 @@ object Form1: TForm1
       Caption = 'Schriftentest'
       ImageIndex = 831
       OnExecute = actFontCheckerExecute
+      OnUpdate = actFontCheckerUpdate
     end
   end
   object ImageList1: TImageList

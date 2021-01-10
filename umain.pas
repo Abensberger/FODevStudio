@@ -188,6 +188,7 @@ type
     procedure actApplicationInfoExecute(Sender: TObject);
     procedure actApplicationSettingsExecute(Sender: TObject);
     procedure actEditCodeBeautifyExecute(Sender: TObject);
+    procedure actEditCodeBeautifyUpdate(Sender: TObject);
     procedure actEditCopyExecute(Sender: TObject);
     procedure actEditCutExecute(Sender: TObject);
     procedure actEditPasteExecute(Sender: TObject);
@@ -195,7 +196,9 @@ type
     procedure actEditSelectAllExecute(Sender: TObject);
     procedure actEditUndoExecute(Sender: TObject);
     procedure actExecCompileExecute(Sender: TObject);
+    procedure actExecCompileUpdate(Sender: TObject);
     procedure actExecCreatePDFExecute(Sender: TObject);
+    procedure actExecCreatePDFUpdate(Sender: TObject);
     procedure actFileCloseExecute(Sender: TObject);
     procedure actFileExecuteExecute(Sender: TObject);
     procedure actFileNewExecute(Sender: TObject);
@@ -204,6 +207,7 @@ type
     procedure actFileSaveExecute(Sender: TObject);
     procedure actFileShowPDFExecute(Sender: TObject);
     procedure actFontCheckerExecute(Sender: TObject);
+    procedure actFontCheckerUpdate(Sender: TObject);
     procedure actFO_blockExecute(Sender: TObject);
     procedure actFO_block_containerExecute(Sender: TObject);
     procedure actFO_external_graphicExecute(Sender: TObject);
@@ -359,6 +363,11 @@ begin
   //PrettyXml(s);
 end;
 
+procedure TForm1.actEditCodeBeautifyUpdate(Sender: TObject);
+begin
+  actEditCodeBeautify.Enabled := Assigned(PageControl.ActivePage)
+end;
+
 procedure TForm1.actEditCopyExecute(Sender: TObject);
 begin
 
@@ -477,6 +486,11 @@ end;
    End;
 end;
 
+procedure TForm1.actExecCompileUpdate(Sender: TObject);
+begin
+  actExecCompile.Enabled := Assigned(PageControl.ActivePage);
+end;
+
 procedure TForm1.actExecCreatePDFExecute(Sender: TObject);
 Var P : TProcessExt;
     RenderXPath, RenderXArgs, CmdLine : String;
@@ -532,6 +546,11 @@ begin
      ShowXEPFile(ChangeFileExt(CurrentFile,'.XEP'),false);
   if FileExists(ChangeFileExt(CurrentFile,'.PDF')) then
      ShowPDFFile(ChangeFileExt(CurrentFile,'.PDF'));
+end;
+
+procedure TForm1.actExecCreatePDFUpdate(Sender: TObject);
+begin
+  actExecCreatePDF.Enabled := Assigned(PageControl.ActivePage);
 end;
 
 procedure TForm1.actFileCloseExecute(Sender: TObject);
@@ -647,7 +666,12 @@ begin
     Log(''+#13#10);
     Log('End font checking "' + ChangeFileExt(CurrentFile,'.PDF') + '" at ' + DateTimeToStr(Now)+#13#10);
 
-   End;
+   End
+end;
+
+procedure TForm1.actFontCheckerUpdate(Sender: TObject);
+begin
+  actFontChecker.Enabled := Assigned(PageControl.ActivePage);
 end;
 
 procedure TForm1.actFO_blockExecute(Sender: TObject);
